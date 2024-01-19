@@ -39,6 +39,7 @@ fun WalletSection() {
             Text(
                 text = "Wallet",
                 fontSize = 17.sp,
+                fontWeight = FontWeight.Bold,
                 color = MaterialTheme.colorScheme.onBackground
             )
             Spacer(modifier = Modifier.height(8.dp))
